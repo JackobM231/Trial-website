@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block style %}<link rel="stylesheet" href="static/style_1.css">{% endblock %}
+
+{% block title %} Contact {% endblock %}
+
+{% block navbar %}
+<li class="nav-item">
+  <a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/projects">Projects</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/about">About</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link active"  aria-current="page" href="/contact">Contact</a>
+</li>>
+{% endblock %}
+
+
+{% block header %}
+<div class="home">
+  <h1>APOLOGY</h1>
+</div>
+{% endblock %}
+
+
+{% block body %}
+<img alt="{{ top }}" class="border" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://i.imgur.com/CsCgN7Ll.png" title="{{ top }}">
+{% endblock %}
