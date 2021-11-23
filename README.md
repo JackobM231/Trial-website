@@ -1,9 +1,9 @@
 # Training web page
 
 My training web page where I try out:  
-- HTML,  
-- CSS,
+- HTML  
+- CSS
 - Bootstrap
-- Flask,  
-- JS,  
+- Flask  
+- JS  
 - CSS-animations
